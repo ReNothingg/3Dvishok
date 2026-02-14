@@ -1,9 +1,0 @@
-C:\CsSharp\3Dvishok\obj\Debug\3Dvishok.csproj.AssemblyReference.cache
-C:\CsSharp\3Dvishok\obj\Debug\_3Dvishok.Properties.Resources.resources
-C:\CsSharp\3Dvishok\obj\Debug\3Dvishok.csproj.GenerateResource.cache
-C:\CsSharp\3Dvishok\obj\Debug\3Dvishok.csproj.CoreCompileInputs.cache
-C:\CsSharp\3Dvishok\bin\Debug\3Dvishok.exe.config
-C:\CsSharp\3Dvishok\bin\Debug\3Dvishok.exe
-C:\CsSharp\3Dvishok\bin\Debug\3Dvishok.pdb
-C:\CsSharp\3Dvishok\obj\Debug\3Dvishok.exe
-C:\CsSharp\3Dvishok\obj\Debug\3Dvishok.pdb

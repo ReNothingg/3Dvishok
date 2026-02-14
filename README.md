@@ -1,28 +1,27 @@
-# 🧊 Simple 3D Engine in Windows Forms (C# .NET)  
+# Простой 3D-движок в Windows Forms (C# .NET)
 
-This project is a **basic 3D engine** built using **Windows Forms and C# (.NET)**. It renders a simple **3D cube** using a custom projection system and allows basic camera movement.  
+Этот проект представляет собой **базовый 3D-движок**, построенный с использованием **Windows Forms и C# (.NET)**. Он отображает простой **3D-куб**, используя пользовательскую систему проекции, и обеспечивает базовое движение камеры.
 
-## 🚀 Features  
-- **3D Cube Rendering** – Displays a wireframe 3D cube using manual projection.  
-- **Camera Movement** – Move the camera around the scene to view the cube from different angles.  
-- **Custom 3D Projection** – Uses a simple perspective projection to simulate depth.  
-- **Windows Forms UI** – Runs inside a classic WinForms application.  
+## Особенности
 
-## 🛠️ Technologies Used  
-- **C# (.NET Framework)**  
-- **Windows Forms (WinForms)**  
-- **Basic 3D Math (Vectors, Matrices, Projection)**  
+- Рендеринг **3D-куба** - отображает каркасный 3D-куб с использованием ручной проекции.
+- Движение камеры** - перемещение камеры по сцене для просмотра куба под разными углами.
+- **Настроенная 3D-проекция** - Использует простую перспективную проекцию для имитации глубины.
+- **Windows Forms UI** - Запускается внутри классического приложения WinForms.
 
-## 📌 How to Run  
-1. Clone the repository:  
+## Используемые технологии
+
+- **C# (.NET Framework)**
+- **Windows Forms (WinForms)**
+- **Базовая 3D математика (векторы, матрицы, проекция)**
+
+## Как запустить
+
+1. Клонируйте репозиторий:
+
    ```bash
-   git clone https://github.com/SPA-BLOOTBER/3Dvishok
-   ```  
-2. Open the project in **Visual Studio**.  
-3. Build and run the application.  
+   git clone https://github.com/ReNothingg/3Dvishok.git
+   ```
 
-## 🤝 Contributions  
-Feel free to contribute by improving the rendering, adding new shapes, or optimizing the projection logic.  
-
-## 📜 License  
-This project is released under the **MIT License**. 
+2. Откройте проект в **Visual Studio**.
+3. Соберите и запустите приложение.
