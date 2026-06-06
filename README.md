@@ -1,50 +1,28 @@
 # 3Dvishok
 
-Прототип пользовательского 3D-движка на WinForms и чистом C# (без внешних 3D-фреймворков).
+This is a placeholder repository for a 3D visualization project.
 
-## Текущие возможности
+## Project Goals
 
-- Программный 3D-рендерер (матрицы модели/вида/проекции).
-- Множество объектов сцены (цветные кубы + плоскость пола).
-- Плоское направленное освещение с компонентом ambient.
-- Сортировка по глубине + опциональный back-face culling.
-- Режимы рендеринга: `Solid`, `Wireframe`, `SolidWireframe`.
-- Свободная камера в реальном времени (WASD + взгляд мышью/клавиатурой).
-- Спавн/удаление объектов во время работы (`N` / `Delete`).
-- HUD с FPS, параметрами камеры и статистикой сцены.
+*   Develop a 3D visualization tool.
+*   Implement interactive features.
+*   Ensure good performance and user experience.
 
-## Структура проекта
+## Current Status
 
-- `Form1.cs` - только цикл приложения, обработка ввода и orchestration.
-- `Engine/Math` - математика (`Vector3`, `Matrix4x4`, `MathUtil`).
-- `Engine/Core` - базовые системы (`Camera`, `Light`, `FrameStats`).
-- `Engine/Scene` - данные сцены и фабрика (`Scene`, `Model`, `Face`, `SceneFactory`).
-- `Engine/Rendering` - софт-рендер, режимы и HUD (`SoftwareRenderer`, `HudRenderer`).
-- `Engine/Input` - состояние клавиатурного ввода.
+This project is in its early stages of development. The primary goal is to identify and fix any bugs present in the codebase.
 
-## Управление
+## How to Find Bugs
 
-- `W/A/S/D` - перемещение по локальным осям камеры.
-- `Q/E` - перемещение вверх/вниз.
-- `Shift` - увеличение скорости.
-- `Кнопки со стрелками` - рысканье/наклон камеры.
-- `RMB drag` - взгляд мыши.
-- `Колесо мыши` - масштабирование FOV.
-- `R` - сброс камеры.
-- `N` - создать новый куб перед камерой.
-- `Delete` - удалить последний созданный куб.
-- `F1` - переключить режим рендеринга.
-- `F2` - переключить back-face culling.
-- `F3` - включить автоповорот.
-- `F4` - переключить HUD.
+I will be performing a thorough code review, looking for common programming errors such as:
 
-## Стек
+*   Syntax errors
+*   Logic errors
+*   Potential performance bottlenecks
+*   Security vulnerabilities
+*   Unused code or variables
+*   Inconsistent coding style
 
-- C# (.NET Framework 4.7.2)
-- WinForms
-- Пользовательские математические типы (`Vector3`, `Matrix4x4`)
+## Next Steps
 
-## Запуск
-
-1. Откройте файл `3Dvishok.sln` в Visual Studio.
-2. Собрать и запустить с `Debug|Any CPU`.
+Based on the code review, I will propose specific code changes to address any identified bugs. These changes will be small and focused to ensure reviewability.
